@@ -1,0 +1,13 @@
+.text {
+    border: #000 1px solid;
+    padding: 20px;
+}
+.kishka {
+    border-top: #000 1px solid;
+    background-color: burlywood;
+    
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
