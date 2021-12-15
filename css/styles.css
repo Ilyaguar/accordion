@@ -1,13 +1,45 @@
+body {
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
 .text {
-    border: #000 1px solid;
-    padding: 20px;
+    border: rgb(51, 51, 51) 3px solid;
+    border-top: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
+
+.topborder {
+    border-top: rgb(51, 51, 51) 3px solid;
+}
+
+h2, p {
+    margin: 40px;
+}
+
 .kishka {
-    border-top: #000 1px solid;
-    background-color: burlywood;
-    
+    display: none;
+    border-top: rgb(51, 51, 51) 3px solid;
+    background-color: rgb(175, 175, 175);
+    padding: 0 20px;
+    margin: 0;
 }
+
 .top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.top p {
+    font-size: 30pt;
 }

@@ -3,7 +3,7 @@ $(function() {
     function magic(containerCh, ar) {
         if(containerCh.css('display') == 'block') {
             containerCh.hide();
-            ar.css('transform', 'rotate(-90deg)');
+            ar.css('transform', 'rotate(0deg)');
         } else {
             containerCh.show();
             ar.css('transform', 'rotate(90deg)');
